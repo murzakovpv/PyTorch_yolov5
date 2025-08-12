@@ -1,0 +1,17 @@
+cameras:
+  - id: 1
+    rtmp_url: "test_video_2.mp4"
+    scene_id: 101
+    frame_rate: 1
+
+
+# cameras:
+#   - id: 1
+#     rtmp_url: "rtmp://server/live/stream1"
+#     scene_id: 101
+#     frame_rate: 1
+#   - id: 2
+#     rtmp_url: "rtmp://server/live/stream2"
+#     scene_id: 102
+#     frame_rate: 1
+    
