@@ -37,3 +37,6 @@ GRANT ALL PRIVILEGES ON ALL SEQUENCES IN SCHEMA public TO admin;
 7. Проверьте подключение с новыми параметрами:
 psql -h localhost -p 5432 -U admin -d people_count -W
 (Введите пароль 'secret' при запросе)
+
+запрос - проверка данных в таблице
+SELECT * FROM people_counts;
