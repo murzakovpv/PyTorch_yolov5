@@ -59,4 +59,3 @@ class VideoProcessor:
 
         # Освобождение ресурсов
         self.capture.release()
-                

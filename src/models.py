@@ -1,12 +1,6 @@
 from pydantic import BaseModel
 from datetime import datetime
 
-# class CameraConfig(BaseModel):
-#     id: int
-#     rtmp_url: str
-#     scene_id: int
-#     frame_rate: int
-
 class CameraConfig:
     def __init__(self, id, scene_id, source, rtmp_url, frame_rate):
         self.id = id
