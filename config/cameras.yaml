@@ -1,5 +1,6 @@
 cameras:
   - id: 1
+    source: "test_video_2.mp4"
     rtmp_url: "test_video_2.mp4"
     scene_id: 101
     frame_rate: 1
